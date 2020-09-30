@@ -1,4 +1,4 @@
-* {
+​* {
   box-sizing: border-box;
   margin: 0;
 }
@@ -36,6 +36,9 @@ body {
   padding: 10px;
   margin: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #image {
@@ -48,7 +51,7 @@ body {
   line-height: 20px;
 }
 
-.figcaption {
+#img-caption {
   font-size: 15px;
 }
 
@@ -97,23 +100,23 @@ p {
   line-height: 25px;
 }
 
-a {
+#tribute.link {
   text-decoration: none;
   color: #2a2a2a;
 }
 
-a:visited {
+#tribute.link:visited {
   color: #901e51;
 }
-a:active {
+#tribute.link:active {
   color: #901e51;
 }
 
-a:hover {
+#tribute.link:hover {
   background-color: hotpink;
 }
 
-a:active {
+.tribute.link:active {
   color: #901e51;
 }
 
