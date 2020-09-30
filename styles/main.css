@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #dad0d5;
+}
+
+#main {
+  color: #2a2a2a;
+  background-color: #dad0d5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#title,
+#subtitle {
+  text-align: center;
+}
+
+#title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#subtitle {
+  padding-bottom: 20px;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+#tribute-info {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line-height {
+  line-height: 20px;
+}
+
+.list {
+  padding-right: 20px;
+  max-width: 95%;
+}
+
+#tribute-info-title {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 80%;
+}
+
+.list-item {
+  padding-bottom: 20px;
+}
+
+blockquote {
+  max-width: 90%;
+  font-style: italic;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+.last-element {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 25px;
+}
+
+.figcaption {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+a:visited {
+  color: #901e51;
+}
+a:active {
+  color: #901e51;
+}
+
+a:hover {
+  background-color: hotpink;
+}
+
+a:active {
+  color: #901e51;
+}
+
+@media all and (min-width: 768px) {
+  body {
+    background-color: white;
+  }
+
+  #main {
+    border-radius: 0.3%;
+  }
+
+  #img-div {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 1%;
+  }
+  #tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list {
+    max-width: 80%;
+  }
+
+  blockquote {
+    max-width: 75%;
+  }
+
+  .last-element {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #img-div {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #image {
+    max-width: 70%;
+  }
+
+  #tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list {
+    max-width: 50%;
+  }
+
+  blockquote {
+    max-width: 45%;
+  }
+}
